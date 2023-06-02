@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+    /*vh - ele acimila a altura da tela que esta sendo usada para fazer o calculo*/
+    display: flex;
+    /*serve para deixar felxível*/
+    justify-content: space-between;
+    /*trabalha em conjuto com o display flex, sua função é trabalhar os menus e a logo*/
+    align-items: center;
+
+}
+
+header h2 {
+    color: rgb(19, 19, 241);
+    padding: 10px;
+}
+
+main {
+    min-width: 80vh;
+}
+
+footer {
+    height: 10vh;
+}
+
+.nav {
+    background-color: rgb(47, 148, 118);
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(36, 36, 165);
+    padding: 8 px;
+    transition: 0.4s;
+}
+
+.nav a:hover {
+    background-color: antiquewhite;
+
+}
+
+.main {
+    margin: 0 auto;
+    width: 95vw;
+}
+
+.main h1,
+h2,
+p {
+    margin: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: aliceblue;
+}
+
+span {
+    font-weight: bold;
+}
